@@ -61,4 +61,3 @@ MIT License — use it, learn from it, improve it! 😉
 
 🙋‍♂️ Author
 Prashant Dasnur
-GitHub
