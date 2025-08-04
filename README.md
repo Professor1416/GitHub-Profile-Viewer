@@ -2,7 +2,7 @@
 
 A simple and responsive web app to view any public GitHub profile using the GitHub API. Built with HTML, CSS, and Vanilla JavaScript — no frameworks or libraries involved.
 
-![Screenshot](https://raw.githubusercontent.com/Professor1416/GitHub-Profile-Viewer/main/screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/Professor1416/GitHub-Profile-Viewer/main/Screenshot.jpg)
 
 ---
 
