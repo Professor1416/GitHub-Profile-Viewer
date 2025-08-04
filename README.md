@@ -6,6 +6,7 @@ A simple and responsive web app to view any public GitHub profile using the GitH
 
 ---
 
+🔗 Live Demo : https://professor1416.github.io/GitHub-Profile-Viewer/
 ## 🚀 Features
 
 - 🔍 Search and display any public GitHub profile
@@ -61,3 +62,4 @@ MIT License — use it, learn from it, improve it! 😉
 
 🙋‍♂️ Author
 Prashant Dasnur
+📬 GitHub: Professor1416 (https://github.com/Professor1416)
