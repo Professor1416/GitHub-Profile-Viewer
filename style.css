@@ -1,0 +1,185 @@
+  /* 🌐 Global Styles */
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f2f5;
+  color: #222;
+  padding: 20px;
+  min-height: 100vh;
+  transition: background-color 0.3s, color 0.3s;
+  }
+
+  h2 {
+    margin-bottom: 20px;
+  }
+
+  .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  padding: 20px;
+  text-align: center;
+}
+
+
+  /* 🌙 Dark Mode */
+#darkToggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #333;
+  color: #fff;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  z-index: 999;
+  transition: background-color 0.3s ease;
+}
+
+#darkToggle:hover {
+  background-color: #0077ff;
+}
+  .dark {
+    background-color: #121212;
+    color: #f5f5f5;
+  }
+
+  .dark input,
+  .dark button {
+    background-color: #1e1e1e;
+    color: #f5f5f5;
+    border: 1px solid #444;
+  }
+
+  .dark #result {
+    background-color: #1f1f1f;
+  }
+
+  .dark a {
+    color: #66b2ff;
+  }
+
+.search-box {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.search-box input {
+  padding: 10px;
+  width: 220px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.search-box button {
+  padding: 10px 16px;
+  font-size: 16px;
+  background-color: #0077ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+  /* 🧾 Result Box */
+  #result {
+    background: #ffffff;
+    margin-top: 25px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    transition: background-color 0.3s;
+  }
+
+  #result img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+
+  #result h3 {
+    margin-top: 10px;
+    margin-bottom: 8px;
+  }
+
+  #result p {
+    margin: 5px 0;
+    font-size: 15px;
+  }
+
+  #result a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #0077ff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  #result a:hover {
+    text-decoration: underline;
+  }
+
+
+.error-msg {
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 15px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.footer a {
+  color: #0077ff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.dark .footer {
+  color: #ccc;
+}
+
+.dark .footer a {
+  color: #66b2ff;
+}
+
+
+  /* 🌐 Responsive Design */
+  @media (max-width: 500px) {
+  #darkToggle .toggle-text {
+    display: none;
+  }
+}
+
+/* Dark mode adjustments */
+.dark #darkToggle {
+  background-color: #eee;
+  color: #222;
+}
+
+.dark #darkToggle:hover {
+  background-color: #66b2ff;
+}

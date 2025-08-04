@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>GitHub Profile</title>
+	<link rel="stylesheet" type="text/css" href="./style1.css">
+	
+</head>
+<body>
+	<button id="darkToggle" onclick="toggleDark()">🌙 <span class="toggle-text">Toggle Dark Mode</span></button>
+
+  <div class="container">
+    <h2>🔍 GitHub Profile Viewer</h2>
+    <div class="search-box">
+      <input type="text" id="username" aria-label="GitHub username" placeholder="Enter GitHub username" />
+      <button onclick="getProfile()">Search</button>
+    </div>
+    <div id="result"></div>
+  </div>
+
+<!-- Footer -->
+  <footer class="footer">
+    <p>Made with ❤️ by <a href="https://github.com/professor1416" target="_blank">Prashant (professor1416)</a></p>
+  </footer>
+</body>
+<script src="script1.js"></script>
+</html>
